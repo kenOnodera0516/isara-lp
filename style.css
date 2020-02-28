@@ -1,0 +1,1363 @@
+@charset "UTF-8";
+
+
+@import url(css/responsive.css);
+
+body{
+  margin:0;
+  letter-spacing: 1.5px;
+}
+h1,h2,h3,h4,p{
+  color: #333333;
+}
+.wrap {
+    position: relative;
+    overflow: hidden;
+}
+/*header*/
+
+header{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+.header-left {
+  display: flex;
+  float: left;
+  margin-top: 15px;
+}
+p.header-left-p {
+  margin-top: 22px;
+  margin-left: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding-left: 5px;
+}
+.header-right {
+    float: right;
+    line-height: 75px;
+}
+a.header-contact {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #DA6B64;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+}
+a.header-contact:hover,
+a.main2-contact:hover {
+    background-color: #d84940;
+}
+.scroll-form{
+  display: none;
+  position: relative;
+  float: right;
+  background-color: #da6b64;
+  text-align: center;
+  height: 62px;
+    width: 76px;
+}
+.scroll-form img {
+    width: 20px;
+    padding-top:9px;
+    height: 24.8px;
+}
+.scroll-form p {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 9px;
+}
+.scroll-form p:hover {
+    text-decoration: underline;
+}
+
+/*main1*/
+.main1-responsive{
+  display: none;
+  height: 375px;
+  overflow: hidden;
+}
+.responsive1{
+
+
+}
+main{
+
+}
+.main1{
+    background-image: url(img/bg/isara.life模写制作LP_bg1.jpg);
+    background-position: center;
+    margin-top: 72px;
+    height: 505px;
+    background-size: cover;
+}
+.main-title {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.main-title h2{
+    font-size: 28px;
+    margin: 14px 0;
+}
+.main-title p{
+    font-size: 20px;
+    font-weight: 600;
+}
+/*main2*/
+
+.main2{
+  background-color: #EBB94D;
+  text-align: center;
+  height: 570px;
+  padding: 25px 0;
+}
+p.main2-text1 {
+  letter-spacing: 2.2px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+p.main2-text2 {
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    width: 43%;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #c7254e;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+}
+a.main2-contact {
+    color: #ffffff;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 30px 300px;
+    background-color: #DA6B64;
+    border-radius: 70px;
+    font-weight: 600;
+}
+.main2-br{
+  display: none;
+}
+.main2-period {
+    margin-top: 80px;
+    letter-spacing: 2.0px;
+}
+p.main2-text3 {
+    font-size: 21px;
+    font-weight: 600;
+    padding:10px 0;
+    color: #ffffff;
+}
+.sns a{
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 11px;
+  padding:2px 8px;
+}
+.sns a i{
+  padding-right: 5px;
+}
+a.twitter {
+    background-color: #1B95E0;
+    color: #ffffff;
+}
+a.twitter:hover{
+  background-color: #147fc1;
+}
+a.facebook {
+    background-color: #1877F2;
+    color: #ffffff;
+    font-weight: 600;
+}
+a.share {
+    background-color: #1877F2;
+    color: #ffffff;
+}
+
+/*main3*/
+
+.main3{
+  background-image: url(img/bg/isara.life模写制作LP_bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 590px;
+  padding-top: 15px;
+  text-align: center;
+
+}
+.main-header-box{
+    margin: 0 auto;
+    position: relative;
+    width: 73%;
+}
+.main-header-box::before,
+.main-header-box::after{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+}
+.main-header-box::before{
+  top: 0;
+  left: 0;
+  border-top: 4px solid #EBB94D;
+  border-left: 4px solid #EBB94D;
+}
+.main-header-box::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+}
+.main-header{
+  letter-spacing: 1.5px;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 30px 30px;
+}
+.main3-text-box {
+    padding-top: 2px;
+}
+.main3-text{
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+}
+span.main3-text-span {
+    font-weight: 700;
+    position: relative;
+}
+span.main3-text-span:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background:#EBB94D;
+  width: 100%;
+  height: 8px;
+}
+.about-box{
+  position: relative;
+  background-color: #FEF5E0;
+  height: 70px;
+}
+.about{
+  background-color: #EBB94D;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  left: 47%;
+  top: -38px;
+}
+
+/*main4*/
+
+.main4{
+  height: 630px;
+  background-color: #FEF5E0;
+  padding-top: 1px;
+  text-align: center;
+}
+h3.main4-text {
+    padding:15px 0;
+    font-size: 20px;
+}
+.main4-container {
+    background-color: #ffffff;
+    border: 2px solid #EBB94D;
+    height: 255px;
+    width: 99%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.main4-container h3{
+  font-size: 20px;
+  padding-top: 10px;
+}
+.main4-items {
+  margin: 0 auto;
+  display: flex;
+  width: 61%;
+}
+.main4-item-img{
+  padding-bottom: 2px;
+}
+.main4-item1 {
+    width: 25%;
+    margin-top: 25px;
+}
+.main4-item2 {
+    width: 25%;
+    margin-top: 13px;
+}
+.main4-item3 {
+    width: 25%;
+    margin-top: 24px;
+}
+.main4-item4 {
+    width: 25%;
+    margin-top: 30px;
+}
+.main4-item5 {
+    width: 25%;
+    margin-top: 33px;
+}
+p.main4-item-p {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*main5*/
+.main5-responsive {
+    display: none;
+    height: 100%;
+    width: 131%;
+}
+.responsive2{
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+
+.main5{
+  position: relative;
+  background-image: url(img/bg/isara.life模写制作LP_bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 440px;
+  text-align: center;
+  padding:1px;
+}
+h3.main5-h3 {
+    font-size: 28px;
+    margin-top: 55px;
+    color: #ffffff;
+}
+p.main5-p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+span.main5-p-span {
+    color: #EBB94D;
+}
+
+.main5-container {
+  display: flex;
+  width: 98.3%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.main5-box {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 32.3%;
+}
+p.step {
+  background-color: #EBB94D;
+  color: #ffffff;
+  width: 312px;
+  margin: 25px auto;
+  border-radius: 6px;
+  line-height: 26px;
+  font-weight: 600;
+}
+p.main5-box-p {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+h4.main5-box-h4 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+/*main6*/
+
+.main6 {
+    text-align: center;
+    padding: 1px;
+    height: 145px;
+    background-color: #016EA9;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+p.main6-p {
+    margin-top: 40px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+}
+
+/*main7*/
+
+.main7{
+  padding:1px;
+  height: 506px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+h3.main7-h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+span.main7-h3-span {
+    font-size: 16px;
+}
+p.main7-p {
+    font-size: 20px;
+}
+.main7-container {
+    display: flex;
+    width: 72.1%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+img.main7-item-img {
+    width: 180px;
+}
+p.main7-last-p {
+    font-weight:600;
+    font-size:16px;
+}
+
+/*main8*/
+
+.main8{
+  background-color: #FEF5E0;
+  height: 1022px;
+  text-align: center;
+  padding-top: 15px;
+  letter-spacing: 1.5px;
+}
+.main-header span {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.main8-lessons {
+    display: flex;
+    width: 96.69%;
+    height: 380px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.main8-lesson {
+    width: 31.58%;
+}
+.main8-lesson-bg1 {
+    height: 47.4%;
+    width: 100%;
+    background-image: url(img/bg/isara.life模写制作LP_lesson-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main8-lesson-bg2 {
+    height: 47.4%;
+    width: 100%;
+    background-image: url(img/bg/isara.life模写制作LP_lesson-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main8-lesson-bg3 {
+    height: 47.4%;
+    width: 100%;
+    background-image: url(img/bg/isara.life模写制作LP_lesson-bg3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h3.main8-lesson-h3 {
+    text-align: left;
+    margin: 14px 0 2px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ebb94d;
+}
+p.main8-lesson-p {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+.main8-box {
+    background-color: #ffffff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+    width: 98.99%;
+    height: 264px;
+    margin: 50px auto 40px auto;
+}
+h3.main8-box-h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ebb94d;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+h4.main8-box-h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+p.main8-box-p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.main8-last {
+    font-size: 14px;
+}
+/*main9*/
+.main9-responsive{
+  display: none;
+  height: 100%;
+  width: 480px;
+  text-align: left;
+}
+img.responsive3 {
+  float: right;
+  width: 119%;
+  height: 100%;
+}
+.main9 {
+    background-position: center;
+    background-image: url(img/bg/isara.life模写制作LP_bg4.jpg);
+    background-size: cover;
+    height: 1340px;
+    padding-top: 80px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+h2.main9-title {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+p.main9-p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.main9-members {
+    display: flex;
+    flex-wrap: wrap;
+    width: 66.11%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.main9-member {
+    width: 48.1%;
+    position: relative;
+    margin-top: 210px;
+}
+.member-image {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -170px;
+    left: 85px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.member-profile {
+    border: 3px solid #ffffff;
+}
+.member-profile p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+}
+p.member-job {
+    margin-top: 40px;
+}
+
+
+p.member-comment {
+    width: 75.8%;
+    margin: 0 auto;
+    margin-bottom: 54px;
+    text-align: left;
+    letter-spacing: 1.3px;
+}
+p.manabu-comment {
+    width: 75.8%;
+    margin: 0 auto;
+    margin-bottom: 27px;
+    text-align: left;
+    letter-spacing: 1.3px;
+}
+
+/*main10*/
+
+.main10 {
+    height: 270px;
+    background-color: #EBB94D;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    letter-spacing: 1.5px;
+}
+.main10-question {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    line-height: 80px;
+    color: #ebb94d;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.main10-header-box {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+}
+.main10-header-box::before,
+.main10-header-box::after{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+}
+.main10-header-box::before{
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
+}
+.main10-header-box::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+}
+
+h2.main10-header {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 0;
+    color: #ffffff;
+}
+.sankaku {
+    position: absolute;
+    left: 46%;
+    bottom: -70px;
+    content: "";
+    height: 0;
+    width: 0;
+    border: 40px solid transparent;
+    border-top: 40px solid #ebb94d;
+}
+/*main11*/
+
+.main11 {
+    height: 1060px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+h2.main11-h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+h3.main11-h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+p.main11-p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.main11-messages {
+    width: 65.6%;
+    margin: 0 auto;
+}
+.main11-massage {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+.main11-image {
+    width: 245px;
+    height: 245px;
+    border: 3px solid #EBB94D;
+    overflow: hidden;
+}
+.main11-image img {
+    width: 100%;
+}
+.main11-comments {
+    width: 64.5%;
+    text-align: left;
+}
+p.main11-comment {
+    font-size: 18px;
+    color: #777777;
+    font-weight: 400;
+}
+
+p.main11-name {
+    font-size: 15px;
+    color: #777777;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/*main12*/
+.main12-responsive {
+    display: none;
+    height: 100%;
+}
+img.responsive4 {
+    width: 100%;
+    height: 100%;
+}
+.main12 {
+    height: 810px;
+    padding-top: 1px;
+    background-image: url(img/bg/isara.life模写制作LP_bg5.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+h2.main12-h2 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+h4.main12-h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main12-lessons {
+    width: 67.1%;
+    margin: 40px auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main12-lesson {
+    background-color: #ffffff;
+    border: 2px solid #016EA9;
+    border-radius: 5px;
+    width: 47.37%;
+    height: 100%;
+}
+h3.main12-lesson-h3 {
+    color: #ffffff;
+    background-color: #016EA9;
+    margin: 0;
+    padding: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+p.main12-lesson-list-p1 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0 11px 0;
+    margin: 0;
+}
+p.main12-lesson-list-p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 11px 0;
+    border-top: 1px dotted #E5E5E5;
+}
+
+/*main13*/
+
+.main13{
+  background-color: #016EA9;
+  height: 145px;
+  text-align: center;
+  padding-top: 1px;
+}
+.main13-p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+/*main14*/
+.main14{
+  height: 1825px;
+  text-align: center;
+  padding-top: 1px;
+}
+h2.main14-h2 {
+  padding: 60px 0 55px 0;
+  font-size: 28px;
+  margin: 0;
+  font-weight: 600;
+}
+.main14-flow1 {
+    width: 84.75%;
+    margin: 0 auto;
+}
+.main14-flow2 {
+    width: 99.16%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.main14-flow2-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEF5E0;
+    border-radius: 10px;
+}
+.main14-flow2-box.main14-flow2-box1 {
+    height: 225px;
+}
+.main14-flow2-box.main14-flow2-box2 {
+    height: 255px;
+}
+.main14-flow2-box.main14-flow2-box3 {
+    height: 202px;
+}
+.main14-flow2-box.main14-flow2-box4 {
+    height: 247px;
+}
+.main14-flow2-box.main14-flow2-box5 {
+    height: 225px;
+}
+.flow2-box-left {
+  width: 20%;
+  margin: 30px 0;
+}
+.flow2-box-left.flow2-box-left2 {
+    margin-top: 60px;
+}
+.flow2-box-right {
+  width: 80%;
+  text-align: left;
+  margin-top: 19px;
+}
+p.flow2-box-right-p {
+    font-size: 14px;
+    font-weight: 300;
+    width: 97%;
+}
+h4.flow2-box-right-h4 {
+  font-size: 16px;
+  font-weight: 600;
+  width: 97%;
+}
+.flow2-line {
+    height: 64px;
+}
+.responsive-flow2{
+  display: none;
+  width: 95%;
+  margin: 0 auto;
+}
+.responsive-flow2-box {
+    background-color: #FEF5E0;
+    box-shadow: 0 1px #F3F3F3;
+}
+.responsive-flow2-box-top {
+    display: flex;
+}
+
+img.flow2-box-top-img {
+    width: 35px;
+    height: 35px;
+    margin: 12px;
+}
+h3.flow2-box-top-h3 {
+  position: relative;
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+}
+h3.flow2-box-top-h3:hover{
+  text-decoration: underline;
+}
+i.flow2-up.fas.fa-chevron-up {
+    display: none;
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+
+}
+i.flow2-down.fas.fa-chevron-down {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.responsive-flow2-box-bottom {
+  width: 93%;
+  margin: 0 auto;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+h4.flow2-box-bottom-h4 {
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 2px;
+}
+p.flow2-box-bottom-p {
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.7px;
+}
+i#flow2-up {
+    display: block;
+}
+i#flow2-down1 {
+    display: none;
+}
+.responsive-flow2-box-bottom-container {
+    display: none;
+}
+/*main15*/
+.main15-responsive {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+img.responsive5 {
+    width: 110%;
+    float: left;
+    height: 100%;
+}
+.main15 {
+    height: 496px;
+    background-image: url(img/bg/isara.life模写制作LP_bg6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main15-container {
+    padding-top: 100px;
+    padding-left: 95px;
+    letter-spacing: 1.5px;
+}
+h2.main15-h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+p.main15-p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 23px 0;
+}
+ul.main15-lists {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 0;
+    list-style: none;
+}
+li.main15-list {
+    margin-bottom: 12px;
+}
+h3.main15-h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+/*main16*/
+.responsive-main16-item-p{
+  display: none;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 600;
+  text-align: left;
+  width: 70%;
+  color: #ffffff;
+
+}
+.main16{
+  height: 705px;
+  background-color: #F7C23C;
+  text-align: center;
+}
+h2.main16-head {
+    margin: 0;
+    padding-top: 60px;
+    font-size: 28px;
+    font-weight: 600;
+}
+p.main16-p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+span.main16-p-white {
+    color: #ffffff;
+}
+.main16-container {
+    position: relative;
+    margin-top: 135px;
+}
+h2.main16-container-h2 {
+    position: absolute;
+    top: -90px;
+    left: 25%;
+    width: 50.28%;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0 6px;
+    background-color: #F7C23C;
+}
+.main16-items {
+  width: 99.19%;
+  height: 310px;
+  padding-top: 50px;
+  display: flex;
+  border: 2px solid #ffffff;
+  justify-content: space-around;
+}
+.main16-item {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+h3.main16-item-h3 {
+    color: #EBB94D;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+p.main16-item-p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 16px;
+}
+
+/*main17*/
+.main17-responsive{
+    display: none;
+    height: 100%;
+    width: 120%;
+}
+img.responsive6 {
+    width: 120%;
+    float: right;
+    height: 100%;
+}
+.main17{
+  height: 525px;
+  background-image: url(img/bg/isara.life模写制作LP_bg7.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+h2.main17-h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 65px;
+}
+h3.main17-h3 {
+    margin: 30px 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+h2.main17-h2-2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    position: relative;
+    padding: 15px 0;
+    width: 72.89%;
+    margin: 0 auto;
+}
+h2.main17-h2-2::before,
+h2.main17-h2-2::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+}
+h2.main17-h2-2::before{
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
+}
+h2.main17-h2-2::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+}
+
+
+
+
+
+/*main18*/
+
+.main18 {
+    height: 605px;
+    text-align: center;
+    padding-top: 20px;
+}
+h2.main18-h2 {
+    font-size: 28px;
+    margin: 45px 0;
+}
+h3.main18-h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main18-container {
+    display: flex;
+    width: 74.1%;
+    margin: 35px auto;
+    justify-content: space-between;
+}
+.main18-image {
+    width: 19%;
+    height: 143px;
+    overflow: hidden;
+    margin-top: 14px;
+    margin-left: 70px;
+}
+.main18-image img {
+    width: 100%;
+}
+.main18-message {
+    width: 64%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin-right: 70px;
+}
+.main18-message-list{
+  margin:25px 0;
+}
+
+.form-front {
+    height: 30px;
+}
+
+/*main19*/
+
+.main19{
+  height: 645px;
+  padding-top: 60px;
+  background-color: #EBB94D;
+  text-align: center;
+}
+h2.main19-h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+h3.main19-h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+form.main19-form {
+    width: 64.1%;
+    margin: 0 auto;
+}
+input.main19-input,
+textarea.main19-textarea,
+a.main19-a {
+    width: 100%;
+    border: none;
+}
+
+input.main19-input {
+    width: 97.5%;
+    padding: 10px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 26px;
+}
+textarea.main19-textarea {
+    width: 97.5%;
+    padding: 10px;
+    height: 82px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+a.main19-a {
+    background-color: #DA6B64;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 55px;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 23px;
+}
+
+/*main20*/
+
+.main20 {
+    text-align: center;
+    padding-top: 60px;
+}
+h2.main20-h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+.main20-container {
+    margin: 45px auto;
+    width: 76.37%;
+}
+.main20-box {
+    margin-bottom: 5px;
+}
+h3.main20-question {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 65px;
+    border: 1px solid #e5e5e5;
+    text-align: left;
+    padding: 0 20px;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+h3.main20-question:hover {
+    text-decoration: underline;
+}
+
+i.far.fa-question-circle {
+    color: #016EA9;
+}
+#down-icon{
+    float: right;
+    margin-top: 25px;
+    color: #e5e5e5;
+}
+#up-icon {
+    display: none;
+    float: right;
+    margin-top: 25px;
+    color: #e5e5e5;
+}
+i#down-icon.down-icon1{
+  display: none;
+}
+i#up-icon.up-icon1 {
+    display: block;
+}
+p.main20-answer {
+    text-align: left;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    height: 100%;
+    border-bottom: 1px solid #F3F3F3;
+    letter-spacing: 1.5px;
+    display: none;
+}
+.active{
+  text-decoration: underline;
+}
+p#answer1 {
+    display: block;
+}
+
+/*footer*/
+
+footer{
+  height: 180px;
+  background-color: #ECECEC;
+  text-align: center;
+
+}
+.footer-p{
+  padding-top: 40px;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+.footer-last{
+  font-size: 10px;
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+}
+.footer-a{
+  text-decoration: none;
+  color: #33A0D2;
+}
+.footer-a:hover{
+  color: #23527c;
+  text-decoration: underline;
+}
+#scroll-top {
+    position: fixed;
+    z-index: 5;
+    right: 50px;
+    bottom: 87px;
+    width: 70px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #ECECEC;
+    color: #333333;
+}

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+.wrap {
+    width: 50.05%;
+    margin: 0 auto;
+}
+h2.title {
+    text-align: center;
+    font-size: 28px;
+}
+p.title-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.red-text {
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: 700;
+}
+.form-container {
+    border: 1px solid #949499;
+}
+h4.form-title {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #B3B3B3;
+    border-bottom: 1px solid #949499;
+}
+.name-box {
+    display: flex;
+    font-size: 12px;
+    height: 48px;
+    border-bottom: 1px solid #949499;
+}
+.address-box {
+    display: flex;
+    font-size: 12px;
+    height: 48px;
+    border-bottom: 1px solid #949499;
+}
+.bikou-box {
+    display: flex;
+    height: 115px;
+    font-size: 12px;
+}
+span.hissu {
+    background-color: #f20000;
+    color: #ffffff;
+    float: right;
+    margin-right: 5px;
+}
+.box-title {
+  background-color: #F5F5F5;
+    width: 28%;
+    border-right: 1px solid #949499;
+    padding: 16px 0;
+    text-align: center;
+}
+.text-box{
+  width: 72%;
+}
+p.red-text.box-red-text {
+    margin: 0;
+    margin-left: 3px;
+    padding-top: 2px;
+}
+.text-box-input {
+    margin-left: 10px;
+}
+input.name-input {
+    border: 1px solid #A9A9A9;
+    width: 65px;
+    height: 17px;
+    margin-top: 2px;
+    margin-right: 15px;
+    margin-left: 2px;
+}
+.mail-text-box-input {
+    margin-left: 5px;
+}
+input.address-input {
+    border: 1px solid #A9A9A9;
+    width: 190px;
+    height: 18px;
+    margin-top: 3px;
+}
+.bikou-box-title{
+    width: 28%;
+    background-color: #F5F5F5;
+    border-right: 1px solid #949499;
+    padding: 50px 0;
+    text-align: center;
+}
+textarea {
+    border: 1px solid #A9A9A9;
+    width: 342px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.input-span{
+  color: #666666;
+}
+a.contact-submit {
+  display: block;
+  width: 90px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: #b3b3b3;
+  text-decoration: none;
+  color: black;
+  padding: 7px 0px;
+  font-size: 16px;
+  border: 1px solid #949499;
+}
+.form-comment{
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+p.last-p {
+    color: #999999;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 60px;
+}
